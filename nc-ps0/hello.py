@@ -1,4 +1,6 @@
-print("hello, world")
+print(*objects, sep=' ', end='')
+# Ask user for their name
+name = input("What's your name? ")
 
-#   git config --global user.email "you@example.com"
-  # git config --global user.name "Your Name"
+# Say hello to user
+print("hello,", name)
