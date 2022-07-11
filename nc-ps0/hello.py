@@ -1,6 +1,10 @@
-print(*objects, sep=' ', end='')
-# Ask user for their name
-name = input("What's your name? ")
+def main():
+    name = input("What's your name? ")
+    hello(name)
 
-# Say hello to user
-print("hello,", name)
+
+def hello(to="world"):
+    print("hello,", to)
+
+
+main()  
